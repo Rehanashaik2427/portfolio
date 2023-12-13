@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <nav>
+        <a href="#aboutMe">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievementsCertificates">Achievements & Certificates</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+
+    <div id="aboutMe" class="container">
+        <h2>ABOUT ME</h2>
+        <div class="Aboutme">
+            <div class="my_image">
+                <img src="images/Rehana.jpeg" alt="About Me Image">
+            </div>
+            <div class="empty-side">
+                <p>Seeking a fulfilling career opportunity in an organization where I can apply my skills and knowledge effectively. Committed to contributing to the company's success by leveraging my passion and expertise. Eager to learn and adapt to industry trends and innovations. Dedicated to making a significant, lasting impact on the organization's growth and achievements.</p>
+            </div>
+        </div>
+    </div>
+
+
+   
+    <div id="education" class="container">
+        <h2>EDUCATION</h2>
+        <div class="Education_container">
+            <!-- B.tech -->
+            <div class="education-row">
+                <div class="year">
+                    <h2 style="text-align: center;">2019-2023</h2>
+                </div>
+                <div class="name">
+                    <h2>B.tech</h2>
+                    <p>I complted my Bachelor  of Technology in Computer Science Engineering with an aggregate of 80% From
+                        Sri Venkateswara College of Engineering and Technology (Autonomous) (SVCET), Chittoor </p>
+                </div>
+            </div>
+
+            <!-- Intermediate -->
+            <div class="education-row">
+                <div class="year">
+                    <h2 style="text-align: center;">2017-2019</h2>
+                </div>
+                <div class="name">
+                    <h2>Intermediate</h2>
+                    <p>I Completed my Intermediate With an aggregate of 93%</p>
+                </div>
+            </div>
+
+            <!-- Secondary Class -->
+            <div class="education-row">
+                <div class="year">
+                    <h2 style="text-align: center;">2016-2017</h2>
+                </div>
+                <div class="name">
+                    <h2>Secondary Class</h2>
+                    <p>I Completed my schooling In Z.P.H.S With an aggregate of 85%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="skills" class="Skills">
+        <h2 class="container">SKILLS</h2>
+        <div class="skill-row1">
+            <img class="skill-icon" src="https://www.pragimtech.com/wp-content/uploads/2020/03/c-tutorial-for-beginners.png" alt="C">
+            <img class="skill-icon" src="https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png" alt="Java">
+            <img class="skill-icon" src="https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png" alt="Python">
+            <img class="skill-icon" src="https://e7.pngegg.com/pngimages/1018/16/png-clipart-mysql-workbench-database-mysql-cluster-others-text-logo.png" alt="MySQL">
+        </div>
+        <div class="skill-row2">
+            <img class="skill-icon" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="HTML">
+            <img class="skill-icon" src="https://diziglobalsolution.com/wp-content/uploads/2023/04/logo-css-3-1536.png" alt="CSS">
+            <img class="skill-icon" src="https://assets.codegrip.tech/wp-content/uploads/2021/09/28165501/JavaScript_Logo2.png" alt="JavaScript">
+        </div>
+    </div>
+
+    <br><br><br>
+
+<div id="achievementsCertificates" class="AchievementsCertificates">
+    <h2 class="container">Achievements & Certificates</h2>
+    <div class="certificates">
+        <img src="images/Java_core.jpeg" alt="Java Core Certificate">
+        <img src="images/Java_Adv (1).jpeg" alt="Java Advanced Certificate">
+        <img src="images/Python.jpeg" alt="Python Certificate">
+    </div>
+
+    <div class="Achievements">
+        <img src="images/ET.jpeg" alt="ET Certificate">
+        <img src="images/SQL.jpeg" alt="SQL Certificate">
+        <img src="images/CSS.jpeg" alt="CSS Certificate">
+    </div>
+</div>
+
+
+<div id="contact" class="Contact">
+        <h2 class="container">CONTACT</h2>
+        <div class="container">
+    <div class="row-2">
+        <!-- Content for the second row goes here -->
+        <div class="image"><img src="images/Rehana.jpeg" style="align-items: center;"></div>
+        <h2>Contact Information</h2>
+        <p>Email: shaikrehana248@gmail.com</p>
+        <p>Phone: +91 7569559778</p>
+        <!-- Icons for social media and contact -->
+        <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+            <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+            <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="tel:+1234567890" title="Mobile">
+            <i class="fas fa-mobile-alt fa-2x"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" title="GitHub">
+            <i class="fab fa-github fa-2x"></i>
+        </a>
+    </div>
+        </div>
+        
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+</script>
+
+
+</body>
+</html>

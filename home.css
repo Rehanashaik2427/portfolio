@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: skyblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(13, 105, 154);
+}
+
+.Aboutme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my_image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.my_image img {
+    width: 400px;
+    height: 500px;
+}
+
+.empty-side {
+    flex: 1;
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* Education */
+/* Add this code to your style.css file */
+
+.Education_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-row {
+    display: flex;
+    margin-bottom: 20px; /* Adjust spacing between rows as needed */
+}
+
+.year, .name {
+    width: 50%;
+    text-align: center;
+}
+
+
+/* Add this code to your style.css file */
+
+.Skills {
+    text-align: center;
+}
+
+.skill-row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-icon {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.skill-icon + img {
+    margin-left: 20px; /* Adjust the spacing between images as needed */
+}
+
+.skill-row img {
+    display: block;
+    margin: 0 auto 10px; /* Center images in the row and add margin below */
+}
+
+
+
+.AchievementsCertificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificates,
+.Achievements {
+    display: flex; 
+    justify-content: space-around;
+    width: 250px;
+    height: 250px;
+    margin: 50px; 
+}
+
+.AchievementsCertificates img {
+    width: 300px; 
+    height: 300px; 
+    margin: 20px; 
+} 
+
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Contact img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove any extra spacing around the image */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 10px;
+}
+
+.row-1 {
+    /* Add styling for the first row as needed */
+    background-color:white; /* Example background color */
+    padding: 20px;
+}
+
+.row-2 {
+    /* Add styling for the second row as needed */
+    background-color: #ffcc00; /* Example background color */
+    border: 2px solid #000; /* Example border style */
+    padding: 20px;
+}
+
+.row-2 img{
+    border-radius: 50%; /* Make the image circular */
+    width: 90px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+     /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add spacing below the image */
+}
+a{
+    color: #000;
+    margin: 10px;
+}
+.image{
+    background-color: #ffcc00; /* Example background color */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
